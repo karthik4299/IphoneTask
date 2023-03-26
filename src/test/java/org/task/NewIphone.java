@@ -1,3 +1,4 @@
+
 package org.task;
 import java.awt.AWTException;
 import java.util.Collection;
@@ -65,6 +66,8 @@ public class NewIphone extends BaseClass {
 		System.out.println();
 		System.out.println("Low price = "+l.get(0));
 		System.out.println("High price = "+ l.get(l.size()-1));
+		System.out.println();
+		
 		
 	}
 

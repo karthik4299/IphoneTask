@@ -28,15 +28,15 @@ public class NewIphone extends BaseClass {
 		robotEnter();
 		Map<String, String> m = new TreeMap<String, String>();
 		List<WebElement> page1 = driver.findElements(By.xpath("//div[@class='_2kHMtA']"));
-		for (int i = 1; i < page1.size(); i++) {
-			for (int j = i; j <= i; j++) {
+		for (int i = 1; i < page1.size(); i++) {//1
+			for (int j = i; j ==i; j++) {//1
 				WebElement p1 = driver.findElement(By.xpath("(//div[@class='_4rR01T'])[" + i + "]"));
 				String text = getText(p1);
 				// System.out.println(text);
 				WebElement pr1 = driver.findElement(By.xpath("(//div[@class='_30jeq3 _1_WHN1'])[" + j + "]"));
 				String text2 = getText(pr1);
 				// System.out.println(" price = "+text2);
-				m.put(text2 + j, text + i);
+				m.put(text2+".  " + j, text +". "+ i);
 				// System.out.println(text + " ---> Prize = " + text2);
 			}
 		}
@@ -67,6 +67,12 @@ public class NewIphone extends BaseClass {
 		System.out.println("Low price = "+l.get(0));
 		System.out.println("High price = "+ l.get(l.size()-1));
 		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		
 		
 		
 	}

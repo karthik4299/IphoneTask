@@ -49,10 +49,13 @@ public class Classs extends BaseClass {
 			}
 
 		}
+		System.out.println("karthik1");
+		System.out.println("karthik2");
+		System.out.println("karthik3");
+		System.out.println("karthik4");
+		System.out.println("karthik5");
+		System.out.println("karthik6");
 
-		// ascending order
-		Collections.sort(l1);
-		System.out.println(l1);
 
 	}
 
